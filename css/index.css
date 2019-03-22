@@ -206,3 +206,44 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.about-title {
+	padding: 0px 20px 20px 20px;
+	border-bottom: 1px dashed black;
+}
+
+.about-main-content {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 10px;
+	justify-content: space-between;
+}
+
+.about-box-main-content {
+	width: 48%;
+	padding-bottom: 20px;
+	margin-top: 20px;
+	border-bottom: 1px dashed black;
+}
+
+.about-box-main-content h1 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.about-box-main-content p {
+	margin-bottom: 10px;
+}
+
+.about-box-main-content button {
+	background-color: white;
+	border-radius: 3px;
+	border: 1px solid black;
+	font-weight: bold;
+	width: 150px;
+	padding: 5px;
+}
+
+.about-bottom-content {
+	margin: 20px 20px 30px 20px;
+}
